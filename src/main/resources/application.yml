@@ -1,0 +1,15 @@
+server:
+    port: 8082
+
+spring:
+    application:
+        name: li-motors
+    codec:
+      max-in-memory-size: 20MB
+
+# To set the logging level
+logging:
+  level:
+    root: INFO
+  file:
+    name: logs/application.log
